@@ -18,6 +18,7 @@ imagesc(ORG); axis image;
 
 次に以下のコードにより、２階調の画像を作成した。 
 
+
 IMG = ORG>128; 
 
 imagesc(IMG); colormap(gray); colorbar;  axis image; 
@@ -72,4 +73,6 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 <img src="https://github.com/ShuheiSato6/lecture_image_processing/blob/master/kadai_img/kadai2-4.PNG" width="320px"> 
 
-図４　原画像を２階調画像とした結果
+図４　原画像を８階調画像とした結果
+
+このように階調を上げていくことで白黒の濃淡で画像が鮮明になっていく。
