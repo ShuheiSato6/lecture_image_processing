@@ -1,7 +1,7 @@
 % 課題９ メディアンフィルタと先鋭化
 % メディアンフィルターを適用し，ノイズ除去を体験せよ．
 
-ORG = imread('Lenna.jpg'); % 画像の読み込み
+ORG = imread('free1.jpg'); % 画像の読み込み
 ORG = rgb2gray(ORG); % 白黒濃淡画像に変換
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 pause;
